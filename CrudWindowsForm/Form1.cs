@@ -22,6 +22,7 @@ namespace CrudWindowsForm
         {
             Refrescar();
         }
+
         // Para no repetir codigo
         #region Helper 
         private void Refrescar()

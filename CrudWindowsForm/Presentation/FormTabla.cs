@@ -15,12 +15,12 @@ namespace CrudWindowsForm.Presentation
     {
         public int? id;
         tabla oTabla=null;
-        public FormTabla(int? id=null)
+        public FormTabla(int? id = null)
         {
             InitializeComponent();
 
             this.id = id;
-            if (id != null) ;
+            if (id != null)
                 CargaDatos();
         }
 
